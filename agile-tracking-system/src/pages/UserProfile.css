@@ -1,0 +1,70 @@
+UserProfile.css
+.user-profile-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #007bff;
+    text-align: center;
+}
+
+.user-profile-container button {
+    
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.user-profile-container li {
+    
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile-container li strong {
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    .user-profile-container {
+        width: 90%;
+        padding: 15px;
+    }
+}

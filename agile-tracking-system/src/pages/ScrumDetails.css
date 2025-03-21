@@ -1,0 +1,124 @@
+ ScrumDetails.css
+.scrum-details-container {
+    max-width: 800px;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.scrum-details-container h3 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.scrum-details-container h4 {
+    color: #333;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+.scrum-details-container li strong {
+    color: #007bff;
+}
+
+.scrum-details-container li em {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.scrum-details-container select {
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    border: 1px solid #ccc;
+    background: white;
+    cursor: pointer;
+}
+
+.scrum-details-container select:hover {
+    border-color: #007bff;
+}
+ 
+
+/* Task List Styling */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .task-item:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Task Details */
+  .task-details {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-title {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .task-desc {
+    color: #555;
+  }
+  
+  /* Status Styling */
+  .task-status {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
+  /* Status Colors */
+  .task-status.to-do {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .task-status.in-progress {
+    background-color: #cce5ff;
+    color: #004085;
+  }
+  
+  .task-status.done {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  /* Admin Select Dropdown */
+  .task-select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .task-select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+  }
+  
