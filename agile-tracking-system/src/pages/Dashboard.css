@@ -1,0 +1,129 @@
+ Dashboard.css
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .dashboard-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ 
+  
+  .form-container {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+  }
+  
+  .form-container div {
+    margin-bottom: 10px;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .create-button {
+    background: #007bff;
+    width: 100%;
+  }
+  
+  .create-button:hover {
+    background: #0056b3;
+  }
+   
+
+  /* Scrum List Styling */
+.scrum-list {
+    list-style: none;
+    padding: 10%;
+    margin: 0;
+    
+  }
+  
+  .scrum-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .scrum-item:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.02);
+  }
+  
+  /* Scrum Name */
+  .scrum-name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Button Styling */
+  .scrum-btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    color: white;
+    background-color: #17ac6c;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .scrum-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .scrum-btn:active {
+    background-color: #004494;
+  }
+  
